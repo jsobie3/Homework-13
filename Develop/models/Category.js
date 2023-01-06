@@ -8,13 +8,13 @@ Category.init(
   {
     // define columns
     id: {
-      tpye: DataTypes.INTERGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
  
-    catergory_name: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false,
 
